@@ -1,0 +1,57 @@
+# Data files (too large for git)
+data/*.csv
+data/*.json
+data/*.xlsx
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# ML Model files
+models/*.pkl
+models/*.joblib
+models/*.h5
+*.model
+
+# Cloud credentials (NEVER commit these!)
+*.json
+service-account-key.json
+credentials/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Large files
+*.zip
+*.tar.gz
+*.rar
+
+# Environment variables
+.env
+.env.local
+
+# But keep these
+!configs/*.json
+!requirements.txt
